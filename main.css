@@ -3,6 +3,7 @@
 .header {
     background-image: url(../img/headerBackground.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     color: white;
     margin: 0 auto;
@@ -14,19 +15,36 @@
 }
 
 .heading {
-    font-size: 50px;
+    font-size: 47px;
     text-align: center;
 }
 
+.heading-text {
+    padding: 5px 0 25px 0;
+    font-size: 23px;
+}
+
+.logo {
+    filter: invert(100);
+    padding: 5% 0 0 18%;
+}
+
 .nav-list {
+    padding: 5px 14px 5px 14px;
+    text-decoration: none;
     color: white;
-    padding: 10px 10px 10px 10px;
 }
 
 .nav-content {
     float: right;
-    padding-right: 100px;
+    padding: 5% 14% 0 0;
+    font-size: 18px;
 }
+
+a:hover {
+    border: 2px solid white;
+    border-radius: 25px 25px 25px 25px;
+  }
 
 .holiday-link {
     text-decoration: none;
@@ -38,13 +56,9 @@
 
 /* BODY SECTION */
 
-.main-container {
+/* .main-container {
     padding: 10px 150px;
-}
-
-.line {
-    color: #FF4E50;
-}
+} */
 
 /* PARTNER SECTION */
 
@@ -68,10 +82,11 @@
 
 .partner-link {
     text-align: center;
-    background-color: white;
-    padding: 20px;
+    padding: 15px;
     color: #FF4E50;
     border-radius: 50px 50px 50px 50px;
+    border: 2px solid #FF4E50;
+    text-decoration: none;
 }
 
 .p-para {
@@ -112,6 +127,8 @@
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top: 2px solid #FF4E50;
+    padding-bottom: 25px;
 }
 
 ul {
