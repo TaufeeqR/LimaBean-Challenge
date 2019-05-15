@@ -66,10 +66,12 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
+    padding: 0px 15%;
 }
 
 .partner-heading {
     text-align: center;
+    padding: 5% 0 2% 0;
 }
 
 .partner-content > img {
