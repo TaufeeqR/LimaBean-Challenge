@@ -88,6 +88,34 @@ a:hover {
     border-radius: 50%;
 }
 
+.music {
+    filter: invert(100%);
+    background-color: #FF4E50;
+}
+
+.brush {
+    filter: invert(100%);
+    background-color: #18D4CA;
+}
+
+.camera {
+    filter: invert(100%);
+    background-color: #FFA710;
+}
+
+.airplane {
+    filter: invert(100%);
+    background-color: #667DF3;
+}
+
+.music, .brush, .camera, .airplane {
+    height: 29px;
+    width: 25px;
+    border-radius: 50%;
+    border: 3px solid;
+}
+
+
 .partner-button {
     text-align: center;
 }
@@ -216,6 +244,7 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-top: 2px solid #FF4E50;
     padding-bottom: 25px;
+    padding: 0 15% 5% 15%;
 }
 
 .footer-name {
