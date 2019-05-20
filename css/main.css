@@ -1,36 +1,294 @@
+/* HEADER SECTION */
+
+/* Styling for the header section (headings, logo, navbar, etc) */
+.header {
+    background-image: url(../img/headerBackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    margin: 0 auto;
+}
+
+.header-content{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.heading {
+    font-size: 47px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.heading-text {
+    padding: 5px 0 25px 0;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.logo {
+    filter: invert(100);
+    padding: 5% 0 0 18%;
+}
+
+/* Navbar styling */
+.nav-list {
+    padding: 5px 14px 5px 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-content {
+    float: right;
+    padding: 5% 14% 0 0;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+a:hover {
+    border: 2px solid white;
+    border-radius: 25px 25px 25px 25px;
+}
+
+/* Styling for the holiday link */
+.holiday-link {
+    text-decoration: none;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #FF4E50;
+    color: white;
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+/* PARTNER SECTION */
+
 .partner-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
+    padding: 0px 15%;
 }
+
+/* Styling for the partner headings */
+.partner-heading {
+    text-align: center;
+    padding: 5% 0 2% 0;
+    color: #444444;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+/* Styling for the images of the container */
+.lead-img{
+    border-radius: 50%;
+}
+
+.music {
+    filter: invert(100%);
+    background-color: #FF4E50;
+}
+
+.brush {
+    filter: invert(100%);
+    background-color: #18D4CA;
+}
+
+.camera {
+    filter: invert(100%);
+    background-color: #FFA710;
+}
+
+.airplane {
+    filter: invert(100%);
+    background-color: #667DF3;
+}
+
+.music, .brush, .camera, .airplane {
+    max-width: 12%;
+    height: 20px;
+    padding: 3%;
+    border: 2px solid;
+    position: relative;
+    right: 36px;
+    bottom: 2px;
+    border-radius: 50%;
+}
+
+/* Button and link styling */
+.partner-button {
+    text-align: center;
+}
+
+.link-2 {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.partner-link {
+    padding: 13px;
+    color: #FF4E50;
+    border-radius: 40px 40px 40px 40px;
+    border: 2px solid #FF4E50;
+    text-decoration: none;
+}
+
+.p-para {
+    color: #666666;
+}
+
+/* HOLIDAY SECTION */
 
 .holiday-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    padding: 0 15% 5% 15%;
 }
 
-.h-3 {
-    grid-column-start: 3;
-    grid-column-end: 4;
+.holiday-heading {
+    text-align: center;
+    color: #444444;
+    padding: 7% 0 3% 0;
+    font-family: 'Roboto';
+    font-weight: 900;
 }
 
-.h-5 {
+/* Styling for each of the grid blocks */
+.block-1 {
+    background-image: url(../img/block1Sports.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: black;
+}
+
+.block-2 {
+    background-image: url(../img/block2Wellness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+.block-3 {
+    background-image: url(../img/block3Expeditions.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+.block-4 {
+    background-image: url(../img/block4Games.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+.block-5 {
+    background-image: url(../img/block5Culture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 800;
 }
 
-.h-6 {
+.block-6 {
+    background-image: url(../img/block6Beauty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
     grid-column-start: 1;
     grid-column-end: 3;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 800;
 }
 
-.h-7 {
-    grid-column-start: 3;
-    grid-column-end: 4;
+.block-7 {
+    background-image: url(../img/block7Travelling.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 800;
 }
+
+.block-1 > div, .block-2 > div, .block-3 > div, .block-4 > div, .block-5 > div, .block-6 > div, .block-7 > div {
+    position: relative;
+    top:150px;
+    font-size: 25px;
+    color: white;
+}
+
+.activity {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.activity:hover {
+    color: black;
+}
+
+.activity-1 {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+/* FOOTER SECTION BELOW */
 
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top: 2px solid #FF4E50;
+    padding-bottom: 25px;
+    padding: 0 15% 5% 15%;
+}
+
+.footer-name {
+    color: #FF4E50;
+}
+
+.head {
+    font-family: 'Montserrat';
+}
+
+.view {
+    color: #FF4E50;
+}
+
+/* Styling for the unordered list tags */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0 5px 0;
+    color: #666666;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
